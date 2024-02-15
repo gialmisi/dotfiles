@@ -1,0 +1,24 @@
+{
+    "cSpell.words": [
+        "pydantic"
+    ],
+    "cSpell.ignoreWords": [
+        "funcs",
+        "scalarization",
+        "scalarized",
+	"hstack"
+    ],
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.languageServer": "Jedi",
+    "[python]": {
+	    "editor.codeActionsOnSave": {
+		    "source.organizeImports.ruff": "explicit"
+	    },
+	    "editor.formatOnSave": true,
+	    "editor.defaultFormatter": "ruff"
+    }
+}
